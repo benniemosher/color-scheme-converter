@@ -25,23 +25,23 @@
 				<key>background</key>
 				<string>{{ background-color }}</string>
 				<key>caret</key>
-				<string>#f8f8f0</string>
+				<string>{{ caret-color }}</string>
 				<key>foreground</key>
 				<string>{{ foreground-color }}</string>
 				<key>invisibles</key>
-				<string>#3B3A32</string>
+				<string>{{ invisibles-color }}</string>
 				<key>lineHighlight</key>
 				<string>{{ current-line-color }}</string>
 				<key>selection</key>
 				<string>{{ selection-color }}</string>
 				<key>findHighlight</key>
-				<string>#effb7b</string>
+				<string>{{ find-highlight-color }}</string>
 				<key>findHighlightForeground</key>
-				<string>#000000</string>
+				<string>{{ find-highlight-foreground-color }}</string>
 				<key>selectionBorder</key>
-				<string>#222218</string>
+				<string>{{ selection-border-color }}</string>
 				<key>activeGuide</key>
-				<string>#9D550FB0</string>
+				<string>{{ active-guide-color }}B0</string>
 				<key>bracketsForeground</key>
 				<string>{{ foreground-color }}A5</string>
 				<key>bracketsOptions</key>

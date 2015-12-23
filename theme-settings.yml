@@ -1,5 +1,7 @@
 theme-name: The One
 theme-name-lowercase: theone
+theme-filename: TheOne
+theme-folder-name: the-one-theme
 theme-uuid: 8ebe1e30-b4ff-4417-8b6c-f4bbace51f28
 version: 1.0.0
 github-url: benniemosher/the-one-theme
@@ -13,3 +15,9 @@ comment-color: '#5b626f'
 current-line-color: '#2c323d'
 foreground-color: '#abb2c0'
 selection-color: '#3e4451'
+caret-color: '#528bff'
+invisibles-color: '#abb2bf'
+find-highlight-color: '#abb2bf'
+find-highlight-foreground-color: '#528bff'
+selection-border-color: '#3e4451'
+active-guide-color: '#0a3a61'
