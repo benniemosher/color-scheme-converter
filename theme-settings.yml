@@ -1,0 +1,15 @@
+theme-name: The One
+theme-name-lowercase: theone
+theme-uuid: 8ebe1e30-b4ff-4417-8b6c-f4bbace51f28
+version: 1.0.0
+github-url: benniemosher/the-one-theme
+copyright: '2015'
+license-type: MIT
+license-url: http://benniemosher.mit-license.org
+author-name: Bennie Mosher
+author-email: <benniemosher@gmail.com>
+background-color: '#272B33'
+comment-color: '#5b626f'
+current-line-color: '#2c323d'
+foreground-color: '#abb2c0'
+selection-color: '#3e4451'
