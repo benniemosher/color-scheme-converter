@@ -10,3 +10,6 @@ settings.each do |key, value|
 		file.puts sample_file_read.gsub!("{{ #{key} }}", value)
 	end
 end
+
+def someMethodName(arg1, arg2)
+end

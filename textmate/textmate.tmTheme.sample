@@ -75,7 +75,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f1fa8c</string>
+				<string>{{ string-foreground-color }}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -86,7 +86,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#bd93f9</string>
+				<string>{{ constant-numeric-color }}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -97,7 +97,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#bd93f9</string>
+				<string>{{ contant-language-color }}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -108,7 +108,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#bd93f9</string>
+				<string>{{ user-defined-constant-color }}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -119,7 +119,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>{{ variable-font-style }}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -130,9 +130,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>{{ rubys-@variable-font-style }}</string>
 				<key>foreground</key>
-				<string>#ffb86c</string>
+				<string>{{ rubys-@variable-color }}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -143,9 +143,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>{{ string-interpolation-font-style }}</string>
 				<key>foreground</key>
-				<string>#ff79c6</string>
+				<string>{{ string-interpolation-color }}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -156,7 +156,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ff79c6</string>
+				<string>{{ keyword-color }}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -167,9 +167,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>{{ storage-font-style }}</string>
 				<key>foreground</key>
-				<string>#ff79c6</string>
+				<string>{{ storage-color }}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -180,9 +180,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>{{ storage-type-font-style }}</string>
 				<key>foreground</key>
-				<string>#8be9fd</string>
+				<string>{{ storage-type-color }}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -193,9 +193,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>underline</string>
+				<string>{{ class-name-font-style }}</string>
 				<key>foreground</key>
-				<string>#50fa7b</string>
+				<string>{{ class-name-color }}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -206,9 +206,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic underline</string>
+				<string>{{ inherited-class-font-style }}</string>
 				<key>foreground</key>
-				<string>#50fa7b</string>
+				<string>{{ inherited-class-color }}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -219,9 +219,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>{{ funtion-name-font-style }}</string>
 				<key>foreground</key>
-				<string>#50fa7b</string>
+				<string>{{ funtion-name-color }}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -232,9 +232,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>italic</string>
+				<string>{{ function-argument-font-style }}</string>
 				<key>foreground</key>
-				<string>#ffb86c</string>
+				<string>{{ function-argument-color }}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -245,9 +245,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>{{ tag-name-font-style }}</string>
 				<key>foreground</key>
-				<string>#ff79c6</string>
+				<string>{{ tag-name-color }}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -258,9 +258,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>{{ tag-attribute-font-style }}</string>
 				<key>foreground</key>
-				<string>#50fa7b</string>
+				<string>{{ tag-attribute-color }}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -271,9 +271,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>{{ library-function-font-style }}</string>
 				<key>foreground</key>
-				<string>#8be9fd</string>
+				<string>{{ library-function-color }}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -284,9 +284,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>{{ library-constant-font-style }}</string>
 				<key>foreground</key>
-				<string>#6be5fd</string>
+				<string>{{ library-constant-color }}</string>
 			</dict>
 		</dict>
 		<dict>
@@ -297,9 +297,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string> italic</string>
+				<string>{{ library-class-type-font-style }}</string>
 				<key>foreground</key>
-				<string>#66d9ef</string>
+				<string>{{ library-class-type-color }}</string>
 			</dict>
 		</dict>
 		<dict>
